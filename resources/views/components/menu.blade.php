@@ -9,13 +9,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                @auth
+                <li class="nav-item">
+                    <a href="{{ route('dashboard') }}" class="nav-link">{{ __('Dashboard') }}</a>
+                </li>
+                @endauth
+
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -55,9 +58,7 @@
                 </li>
                 @if (Route::has('login'))
                     @auth
-                        <li class="nav-item">
-                            <a href="{{ route('dashboard') }}" class="nav-link">{{ __('Dashboard') }}</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle d-flex items-center justify-center" href="#"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
