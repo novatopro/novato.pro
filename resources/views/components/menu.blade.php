@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
         <a class="navbar-brand" href="/">
             <x-application-logo />
         </a>
@@ -14,16 +15,16 @@
                     <a href="{{ route('dashboard') }}" class="nav-link">{{ __('Dashboard') }}</a>
                 </li>
                 @endauth
-
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a href="{{ route('qr') }}" class="nav-link">{{ __('Qr generator') }}</a>
                 </li>
 
             </ul>
-            <form class="d-flex" role="search">
+            {{-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> --}}
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                     <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"

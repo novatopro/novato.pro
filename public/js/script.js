@@ -21,7 +21,6 @@
       if (theme === 'dark' || theme === 'auto' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.setAttribute('data-bs-theme', 'dark')
         document.documentElement.classList.add('dark')
-        console.log(theme);
       } else {
         document.documentElement.setAttribute('data-bs-theme', theme)
         document.documentElement.classList.remove('dark')
