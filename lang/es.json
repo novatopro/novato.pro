@@ -187,7 +187,11 @@
     "You may not delete your personal team.": "No se puede borrar su equipo personal.",
     "You may not leave a team that you created.": "No se puede abandonar un equipo que usted creó.",
     "Your email address is unverified.": "Su dirección de correo electrónico no está verificada.",
+    "Toggle theme": "Cambiar tema",
     "Download": "Descargar",
+    "Light": "Claro",
+    "Dark": "Oscuro",
+    "Auto": "Automático",
     "Qr generator": "Generador qr",
     "Terms and conditions": "Términos y condiciones",
     "Privacy policy":"Política de privacidad"

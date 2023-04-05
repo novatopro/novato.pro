@@ -31,11 +31,11 @@
             function generateQr() {
                 var text = document.querySelector('#text').value;
                 qrcode.makeCode(text);
-                image = document.querySelector('#qrcode>img')
                 setTimeout(() => {
+                    image = document.querySelector('#qrcode>img')
                     link = document.querySelector('#download')
                     link.setAttribute('href', image.getAttribute('src'));
-                }, 500);
+                }, 1000);
             }
             window.addEventListener('load', () => {
                 generateQr()
