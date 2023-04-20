@@ -19,6 +19,10 @@
                 <li class="nav-item">
                     <a href="{{ route('qr') }}" class="nav-link">{{ __('Qr generator') }}</a>
                 </li>
+                
+                <li class="nav-item">
+                    <a target="_blank" href="https://drupal.novato.pro" class="nav-link">{{ __('Testing drupal site') }}</a>
+                </li>
 
             </ul>
             {{-- <form class="d-flex" role="search">

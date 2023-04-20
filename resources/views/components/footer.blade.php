@@ -5,7 +5,7 @@
         <div class="row g-4">
 
             <!-- Widget 1 START -->
-            <div class="col-lg-3">
+            <div class="col-lg-3 text-center md:text-left">
                 <!-- logo -->
                 <a href="index.html">
                     <x-application-logo />
@@ -22,7 +22,7 @@
             <div class="col-lg-8 ms-auto">
                 <div class="row g-4">
                     <!-- Link block -->
-                    <div class="col-6 col-md-3">
+                    <div class="col-12 col-md-3">
                         {{-- <h5 class="text-white mb-2 mb-md-4">Page</h5>
                         <ul class="nav flex-column text-primary-hover">
                             <li class="nav-item"><a class="nav-link text-muted" href="#">About us</a></li>
@@ -33,7 +33,7 @@
                     </div>
 
                     <!-- Link block -->
-                    <div class="col-6 col-md-3">
+                    <div class="col-12 col-md-3 text-center md:text-left">
                         <h5 class="text-white mb-2 mb-md-4">Enlaces rápidos</h5>
                         <ul class="nav flex-column text-primary-hover">
 
@@ -60,7 +60,7 @@
                     </div>
 
                     <!-- Link block -->
-                    <div class="col-6 col-md-3">
+                    <div class="col-12 col-md-3 text-center md:text-left">
                         <h5 class="text-white mb-2 mb-md-4">Idiomas / Languages</h5>
                         <ul class="nav flex-column text-primary-hover">
                             <li class="nav-item"><a class="nav-link text-muted disabled" href="#">Proximamente</a>
@@ -74,7 +74,7 @@
                     </div>
 
                     <!-- Link block -->
-                    <div class="col-6 col-md-3">
+                    <div class="col-12 col-md-3">
                         {{-- <h5 class="text-white mb-2 mb-md-4">Booking</h5>
 						<ul class="nav flex-column text-primary-hover">
 							<li class="nav-item"><a class="nav-link text-muted" href="#"><i class="fa-solid fa-hotel me-2"></i>Hotel</a></li>
@@ -151,7 +151,7 @@
             <div class="container">
                 <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-lg-start">
                     <!-- copyright text -->
-                    <div class="text-muted text-primary-hover"> Derechos de autor {{ now()->format('Y') }} Novato Pro. </div>
+                    <div class="text-muted text-primary-hover"> Derechos de autor {{ now()->format('Y') }} Novato Pro.</div>
                     <!-- copyright links-->
                     <div class="nav mt-2 mt-lg-0">
                         <ul class="list-inline text-primary-hover mx-auto mb-0">
@@ -162,6 +162,7 @@
                             {{-- <li class="list-inline-item me-0"><a class="nav-link py-1 text-muted pe-0" href="#">Refund policy</a></li> --}}
                         </ul>
                     </div>
+                    <div class="text-muted text-primary-hover">Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})</div>
                 </div>
             </div>
         </div>

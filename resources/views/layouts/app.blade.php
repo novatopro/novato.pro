@@ -7,8 +7,38 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Novato pro is a tech website, developed generally for learning purposes.">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/jpg" href="/img/logo.jpg">
+    <link rel="icon" type="image/jpg" href="/img/logo-white.png">
+    <meta property="og:title" content="Novato.pro - Desarrollo de Software, Programación e Informática">
+    <meta property="og:description"
+        content="Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y es desarrollado y mantenido por Jhordy Barrera en su tiempo libre.">
+    <meta property="og:image" content="https://novato.pro/img/logo-white.png">
+    <meta property="og:url" content="https://novato.pro">
     
+    <!-- Etiquetas para Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@novato_pro">
+    <meta property="twitter:title" content="Novato.pro - Desarrollo de Software, Programación e Informática">
+    <meta property="twitter:description"
+        content="Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y es desarrollado y mantenido por Jhordy Barrera en su tiempo libre.">
+    <meta property="twitter:image" content="https://novato.pro/img/logo-white.png">
+
+    <!-- Etiquetas para Facebook -->
+    <meta property="fb:app_id" content="1234567890">
+    <meta property="article:author" content="https://facebook.com/jhordybarrera">
+    <meta property="article:publisher" content="https://facebook.com/novatopro">
+
+    <!-- Etiquetas para LinkedIn -->
+    <meta property="linkedin:title" content="Novato.pro - Desarrollo de Software, Programación e Informática">
+    <meta property="linkedin:description"
+        content="Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y es desarrollado y mantenido por Jhordy Barrera en su tiempo libre.">
+    <meta property="linkedin:image" content="https://novato.pro/img/logo-white.png">
+
+    <!-- Etiquetas para Pinterest -->
+    <meta property="pinterest:description"
+        content="Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y es desarrollado y mantenido por Jhordy Barrera en su tiempo libre.">
+    <meta property="pinterest:image" content="https://novato.pro/img/logo-white.png">
+    <meta property="pinterest:domain_verify" content="1234567890abcdefg">
+
     <!-- Scripts -->
     @vite(['resources/js/app.js'])
     @vite(['resources/css/app.css'])

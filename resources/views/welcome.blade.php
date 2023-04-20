@@ -4,24 +4,24 @@
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
                 <div class="ml-4 text-sm text-gray-500 dark:text-gray-400 sm:ml-0">
-                    <h1>Acerca de Novato.pro</h1>
-                    <p>Novato.pro fue fundado por el ingeniero en sistemas Jhordy Barrera, quien es un apasionado por la
-                        tecnología y el desarrollo de software. Jhordy creó Novato.pro con la visión de proporcionar a
-                        los usuarios una plataforma en línea confiable y de alta calidad para obtener información sobre
-                        tecnología, hardware, desarrollo de software y videojuegos.</p>
-                    <p>En Novato.pro, nuestro equipo de expertos en tecnología está comprometido en proporcionar
-                        contenido actualizado regularmente, incluyendo tutoriales, reseñas, guías de compra y noticias
-                        relevantes. Estamos dedicados a ayudar a nuestros usuarios a comprender mejor el mundo de la
-                        tecnología y a utilizarla de manera más efectiva.</p>
-                    <p>Además, en Novato.pro entendemos que la tecnología es una industria en constante evolución y nos
-                        esforzamos por mantenernos actualizados con las últimas tendencias y avances en el campo. Somos
-                        un equipo apasionado de entusiastas de la tecnología y estamos ansiosos por compartir nuestro
-                        conocimiento y experiencia con nuestros usuarios.</p>
-                    <p>En resumen, Novato.pro es una plataforma en línea de confianza y una fuente de información
-                        valiosa para cualquier persona interesada en la tecnología, el desarrollo de software, el
-                        hardware y los videojuegos. Nos esforzamos por brindar información útil,
-                        precisa y actualizada para ayudar a nuestros usuarios a estar siempre al tanto de lo último en
-                        tecnología.</p>
+                    <h2>Acerca de Novato.pro</h2>
+                    <p>Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y
+                        es desarrollado y mantenido por Jhordy Barrera en su tiempo libre. El sitio web tiene como
+                        objetivo brindar información y recursos útiles para aquellos que están empezando en el mundo de
+                        la programación y la informática, así como para aquellos que ya tienen experiencia en estas
+                        áreas.</p>
+                    <p>En Novato.pro, se pueden encontrar una variedad de recursos útiles, incluyendo tutoriales,
+                        artículos, ejemplos de código, recomendaciones de herramientas y tecnologías, y más. Estos
+                        recursos están diseñados para ayudar a los principiantes a aprender los fundamentos de la
+                        programación y la informática, y para guiar a los desarrolladores más experimentados en su
+                        trabajo.</p>
+                    <p>El sitio web está enfocado en una amplia variedad de temas relacionados con el desarrollo de
+                        software, incluyendo lenguajes de programación, frameworks, metodologías de desarrollo, pruebas
+                        de software, seguridad informática, entre otros. También cuenta con secciones dedicadas a temas
+                        específicos, como desarrollo web, desarrollo móvil, inteligencia artificial, entre otros.</p>
+                    <p>En resumen, Novato.pro es un sitio web útil y valioso para cualquier persona interesada en el
+                        desarrollo de software, programación e informática, especialmente para aquellos que están
+                        empezando en estas áreas.</p>
                 </div>
 
             </div>
