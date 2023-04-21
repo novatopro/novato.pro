@@ -19,11 +19,9 @@ Route::view('qr-generator', 'views.qr')->name('qr');
 
 
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
+
+Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])->group(function () {
     
     Route::view('dashboard', 'dashboard')->name('dashboard');
 });
+

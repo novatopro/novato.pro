@@ -8,6 +8,9 @@ Alpine.plugin(focus);
 
 Alpine.start();
 
+import $ from "jquery";
+window.$ = $
+
 // Import our custom CSS
 import '../scss/styles.scss'
 

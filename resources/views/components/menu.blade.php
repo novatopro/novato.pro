@@ -30,6 +30,7 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form> --}}
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <x-realtime />
                 <li class="nav-item dropdown">
                     <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
                         id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
