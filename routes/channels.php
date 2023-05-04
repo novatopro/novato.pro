@@ -19,5 +19,5 @@ use Illuminate\Support\Facades\Broadcast;
 // });
 
 Broadcast::channel('system', function (User $user) {
-    return array('id'=>$user->id,'name' => $user->name);
+    return array('id'=>$user->id,'name' => $user->name,'photo'=>$user->profile_photo_url);
 });

@@ -1,4 +1,9 @@
 <x-app-layout>
+    
+    <div class="container">
+        <h1>{{__('Welcome to Novato Pro')}}</h1>
+        {{-- <script src="https://gist.github.com/jbarreraballestas/2190314ca629712baeb761fef2ebb5d1.js"></script> --}}
+    </div>
     <div
         class="relative sm:flex sm:justify-center sm:items-center bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
