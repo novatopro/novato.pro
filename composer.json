@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "beyondcode/laravel-websockets": "*",
         "guzzlehttp/guzzle": "*",
         "guzzlehttp/psr7": "^2.5",
         "laravel/framework": "^10.0",
@@ -13,7 +14,7 @@
         "laravel/sanctum": "*",
         "laravel/tinker": "*",
         "livewire/livewire": "*",
-        "beyondcode/laravel-websockets": "*",
+        "novatopro/lrp": "^0.0.3",
         "pusher/pusher-php-server": "^7.2"
     },
     "require-dev": {
