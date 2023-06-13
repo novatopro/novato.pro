@@ -25,3 +25,4 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])-
     Route::view('dashboard', 'dashboard')->name('dashboard');
 });
 
+Route::get('public_meeting', [\App\Http\Controllers\BigBlueButtonController::class, 'public'])->name('public_meeting');

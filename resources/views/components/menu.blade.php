@@ -21,8 +21,9 @@
                 </li>
                 
                 <li class="nav-item">
-                    <a target="_blank" href="https://drupal.novato.pro" class="nav-link">{{ __('Testing drupal site') }}</a>
+                    <a href="{{ route('public_meeting') }}" class="nav-link">{{ __('Public Meeting') }}</a>
                 </li>
+              
 
             </ul>
             {{-- <form class="d-flex" role="search">
