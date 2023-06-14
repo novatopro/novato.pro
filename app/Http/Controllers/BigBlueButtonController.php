@@ -61,10 +61,13 @@ class BigBlueButtonController extends Controller
             ]);
         }
 
+
+        $name = auth()->check() ? auth()->user()->name : $color.' '.$animal;
+        $avatarUrl = auth()->check() ? auth()->user()->profile_photo_url : 'https://api.dicebear.com/6.x/thumbs/svg?seed='.urlencode($name);
         $url = $bbb->join([
             'meetingID' => $meetId,
-            'userName' => $color.' '.$animal,
-            'avatarUrl' => 'https://api.dicebear.com/6.x/thumbs/svg?seed='.urlencode($color.' '.$animal),
+            'userName' => $name,
+            'avatarUrl' => $avatarUrl,
             'password' => 'moderator'
         ]);
 
