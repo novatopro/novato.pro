@@ -1,7 +1,6 @@
 <x-app-layout>
     
     <div class="container">
-        <h1>{{__('Welcome to Novato Pro')}}</h1>
         {{-- <script src="https://gist.github.com/jbarreraballestas/2190314ca629712baeb761fef2ebb5d1.js"></script> --}}
     </div>
     <div
@@ -10,23 +9,10 @@
             <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
                 <div class="ml-4 text-sm text-gray-500 dark:text-gray-400 sm:ml-0">
                     <h2>Acerca de Novato.pro</h2>
-                    <p>Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y
-                        es desarrollado y mantenido por Jhordy Barrera en su tiempo libre. El sitio web tiene como
-                        objetivo brindar información y recursos útiles para aquellos que están empezando en el mundo de
-                        la programación y la informática, así como para aquellos que ya tienen experiencia en estas
-                        áreas.</p>
-                    <p>En Novato.pro, se pueden encontrar una variedad de recursos útiles, incluyendo tutoriales,
-                        artículos, ejemplos de código, recomendaciones de herramientas y tecnologías, y más. Estos
-                        recursos están diseñados para ayudar a los principiantes a aprender los fundamentos de la
-                        programación y la informática, y para guiar a los desarrolladores más experimentados en su
-                        trabajo.</p>
-                    <p>El sitio web está enfocado en una amplia variedad de temas relacionados con el desarrollo de
-                        software, incluyendo lenguajes de programación, frameworks, metodologías de desarrollo, pruebas
-                        de software, seguridad informática, entre otros. También cuenta con secciones dedicadas a temas
-                        específicos, como desarrollo web, desarrollo móvil, inteligencia artificial, entre otros.</p>
-                    <p>En resumen, Novato.pro es un sitio web útil y valioso para cualquier persona interesada en el
-                        desarrollo de software, programación e informática, especialmente para aquellos que están
-                        empezando en estas áreas.</p>
+                    <p>Novato.pro es un sitio web en crecimiento que tiene como objetivo brindar un espacio para aprender y enseñar habilidades diversas. El sitio se centra en reunir a personas novatas y expertas en diferentes áreas del conocimiento, fomentando la colaboración y el intercambio de conocimientos.</p>
+<p>En Novato.pro, todos somos novatos y pros, lo que significa que todos tenemos algo que aprender y algo que enseñar. No importa cuál sea tu nivel de experiencia, puedes encontrar oportunidades para mejorar tus habilidades y compartir tus conocimientos con otros.</p>
+<p>El sitio ofrece una variedad de recursos y herramientas para facilitar el aprendizaje y la enseñanza. Puedes acceder a tutoriales, cursos en línea, artículos informativos y foros de discusión, donde puedes interactuar con expertos y otros usuarios con intereses similares.</p>
+<p>Novato.pro se destaca por su enfoque inclusivo y amigable. No importa cuál sea tu área de interés, encontrarás comunidades y grupos dedicados a diferentes temas, desde programación y diseño hasta música y arte. Además, el sitio está constantemente en crecimiento, por lo que siempre hay nuevas oportunidades y contenidos para explorar.</p>
                 </div>
 
             </div>

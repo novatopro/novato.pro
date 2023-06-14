@@ -44,7 +44,7 @@
     @vite(['resources/css/app.css'])
     <script src="{{ asset('js/script.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <!-- Styles -->
+    {!! NoCaptcha::renderJs() !!}
     @livewireStyles
 </head>
 
