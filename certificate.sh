@@ -6,5 +6,5 @@ certbot certonly \
   --authenticator dns-porkbun \
   --dns-porkbun-credentials "/porkbun-credentials.ini" \
   --dns-porkbun-propagation-seconds 60 \
-  -d "*.novato.pro" \
-  -d "novato.pro"
+  -d "novato.pro" \
+  -d "*.novato.pro"
