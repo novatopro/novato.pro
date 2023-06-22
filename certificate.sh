@@ -4,7 +4,7 @@ certbot certonly \
   --email "admin@novato.pro" \
   --preferred-challenges dns \
   --authenticator dns-porkbun \
-  --dns-porkbun-credentials "/porkbun-credentials.ini" \
+  --dns-porkbun-credentials "porkbun.ini" \
   --dns-porkbun-propagation-seconds 60 \
   -d "novato.pro" \
   -d "*.novato.pro"
