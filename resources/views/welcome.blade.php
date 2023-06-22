@@ -1,6 +1,8 @@
 <x-app-layout>
     
     <div class="container">
+    <x-validation-errors />
+
         {{-- <script src="https://gist.github.com/jbarreraballestas/2190314ca629712baeb761fef2ebb5d1.js"></script> --}}
     </div>
     <div
