@@ -13,7 +13,7 @@
         content="Novato.pro es un sitio web enfocado en el desarrollo de software, programación e informática, y es desarrollado y mantenido por Jhordy Barrera en su tiempo libre.">
     <meta property="og:image" content="https://novato.pro/img/logo-white.png">
     <meta property="og:url" content="https://novato.pro">
-    
+
     <!-- Etiquetas para Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:site" content="@novato_pro">
@@ -46,6 +46,16 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     {!! NoCaptcha::renderJs() !!}
     @livewireStyles
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1B8QQ8GVJH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-1B8QQ8GVJH');
+    </script>
 </head>
 
 <body class="font-sans antialiased bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900">
