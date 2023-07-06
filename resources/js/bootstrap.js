@@ -21,6 +21,7 @@ import Pusher from 'pusher-js';
 window.Pusher = Pusher;
 
 window.Echo = new Echo({
+    authEndpoint: '/custom/broadcast/auth/route',
     broadcaster: 'pusher',
     key: import.meta.env.VITE_PUSHER_APP_KEY,
     cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER ?? 'mt1',

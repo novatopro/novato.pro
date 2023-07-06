@@ -50,6 +50,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1B8QQ8GVJH"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -77,9 +78,26 @@
         {{ $slot }}
     </main>
     <x-footer />
-
+    <!-- Stack modals -->
     @stack('modals')
+    <!-- Stack js -->
+    @stack('js')
     @livewireScripts
+    <script type="module">
+        Echo.join('users')
+            .here((users) => {
+                console.log(users);
+            })
+            .joining((user) => {
+                console.log(user.name);
+            })
+            .leaving((user) => {
+                console.log(user.name);
+            })
+            .error((error) => {
+                console.error(error);
+            });
+    </script>
 </body>
 
 </html>

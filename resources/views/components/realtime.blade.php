@@ -18,7 +18,7 @@
             </div>
         @endpush
         
-        <script type="module">
+        {{-- <script type="module">
             
             window.addEventListener('load', () => {
                 Echo.join(`system`)
@@ -38,7 +38,7 @@
                     console.error(error);
                 });
             });
-        </script>
+        </script> --}}
     @endauth
 
 </div>
